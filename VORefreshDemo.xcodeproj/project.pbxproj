@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E2CCDB21A0CE56900EEF9EC /* VORefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CCDB11A0CE56900EEF9EC /* VORefreshView.m */; };
+		3E34F64E1A0DC92A008946E6 /* UIScrollView+VORefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E34F64D1A0DC92A008946E6 /* UIScrollView+VORefresh.m */; };
+		3E34F6511A0DDA58008946E6 /* VOMainPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E34F6501A0DDA58008946E6 /* VOMainPageController.m */; };
+		3E34F6541A0DDA84008946E6 /* VODemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E34F6531A0DDA84008946E6 /* VODemoTableViewController.m */; };
+		3E34F6571A0DDABC008946E6 /* VODemoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E34F6561A0DDABC008946E6 /* VODemoCollectionViewController.m */; };
+		3E34F65A1A0DFBF6008946E6 /* VODemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E34F6591A0DFBF6008946E6 /* VODemoCell.m */; };
 		3E88BCE91A0C619900D415C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E88BCE81A0C619900D415C1 /* main.m */; };
 		3E88BCEC1A0C619900D415C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E88BCEB1A0C619900D415C1 /* AppDelegate.m */; };
-		3E88BCEF1A0C619900D415C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E88BCEE1A0C619900D415C1 /* ViewController.m */; };
 		3E88BCF21A0C619900D415C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E88BCF01A0C619900D415C1 /* Main.storyboard */; };
 		3E88BCF41A0C619900D415C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E88BCF31A0C619900D415C1 /* Images.xcassets */; };
 		3E88BCF71A0C619900D415C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E88BCF51A0C619900D415C1 /* LaunchScreen.xib */; };
 		3E88BD031A0C619900D415C1 /* VORefreshDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E88BD021A0C619900D415C1 /* VORefreshDemoTests.m */; };
+		3E88BD231A0C791400D415C1 /* VORingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E88BD201A0C791400D415C1 /* VORingIndicator.m */; };
+		3E88BD241A0C791400D415C1 /* VORingProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E88BD221A0C791400D415C1 /* VORingProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +34,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E2CCDB01A0CE56900EEF9EC /* VORefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VORefreshView.h; path = VORefresh/VORefreshView.h; sourceTree = "<group>"; };
+		3E2CCDB11A0CE56900EEF9EC /* VORefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VORefreshView.m; path = VORefresh/VORefreshView.m; sourceTree = "<group>"; };
+		3E34F64C1A0DC92A008946E6 /* UIScrollView+VORefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+VORefresh.h"; path = "VORefresh/UIScrollView+VORefresh.h"; sourceTree = "<group>"; };
+		3E34F64D1A0DC92A008946E6 /* UIScrollView+VORefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+VORefresh.m"; path = "VORefresh/UIScrollView+VORefresh.m"; sourceTree = "<group>"; };
+		3E34F64F1A0DDA58008946E6 /* VOMainPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOMainPageController.h; sourceTree = "<group>"; };
+		3E34F6501A0DDA58008946E6 /* VOMainPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOMainPageController.m; sourceTree = "<group>"; };
+		3E34F6521A0DDA84008946E6 /* VODemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VODemoTableViewController.h; sourceTree = "<group>"; };
+		3E34F6531A0DDA84008946E6 /* VODemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VODemoTableViewController.m; sourceTree = "<group>"; };
+		3E34F6551A0DDABC008946E6 /* VODemoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VODemoCollectionViewController.h; sourceTree = "<group>"; };
+		3E34F6561A0DDABC008946E6 /* VODemoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VODemoCollectionViewController.m; sourceTree = "<group>"; };
+		3E34F6581A0DFBF6008946E6 /* VODemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VODemoCell.h; sourceTree = "<group>"; };
+		3E34F6591A0DFBF6008946E6 /* VODemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VODemoCell.m; sourceTree = "<group>"; };
 		3E88BCE31A0C619900D415C1 /* VORefreshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VORefreshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E88BCE71A0C619900D415C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E88BCE81A0C619900D415C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E88BCEA1A0C619900D415C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E88BCEB1A0C619900D415C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3E88BCED1A0C619900D415C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3E88BCEE1A0C619900D415C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3E88BCF11A0C619900D415C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E88BCF31A0C619900D415C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3E88BCF61A0C619900D415C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3E88BCFC1A0C619900D415C1 /* VORefreshDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VORefreshDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E88BD011A0C619900D415C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E88BD021A0C619900D415C1 /* VORefreshDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VORefreshDemoTests.m; sourceTree = "<group>"; };
+		3E88BD1F1A0C791400D415C1 /* VORingIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VORingIndicator.h; sourceTree = "<group>"; };
+		3E88BD201A0C791400D415C1 /* VORingIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VORingIndicator.m; sourceTree = "<group>"; };
+		3E88BD211A0C791400D415C1 /* VORingProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VORingProgressView.h; sourceTree = "<group>"; };
+		3E88BD221A0C791400D415C1 /* VORingProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VORingProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +102,18 @@
 		3E88BCE51A0C619900D415C1 /* VORefreshDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3E88BD1E1A0C791400D415C1 /* RingProgress */,
+				3E88BD0C1A0C61A200D415C1 /* VORefresh */,
 				3E88BCEA1A0C619900D415C1 /* AppDelegate.h */,
 				3E88BCEB1A0C619900D415C1 /* AppDelegate.m */,
-				3E88BCED1A0C619900D415C1 /* ViewController.h */,
-				3E88BCEE1A0C619900D415C1 /* ViewController.m */,
+				3E34F64F1A0DDA58008946E6 /* VOMainPageController.h */,
+				3E34F6501A0DDA58008946E6 /* VOMainPageController.m */,
+				3E34F6521A0DDA84008946E6 /* VODemoTableViewController.h */,
+				3E34F6531A0DDA84008946E6 /* VODemoTableViewController.m */,
+				3E34F6581A0DFBF6008946E6 /* VODemoCell.h */,
+				3E34F6591A0DFBF6008946E6 /* VODemoCell.m */,
+				3E34F6551A0DDABC008946E6 /* VODemoCollectionViewController.h */,
+				3E34F6561A0DDABC008946E6 /* VODemoCollectionViewController.m */,
 				3E88BCF01A0C619900D415C1 /* Main.storyboard */,
 				3E88BCF31A0C619900D415C1 /* Images.xcassets */,
 				3E88BCF51A0C619900D415C1 /* LaunchScreen.xib */,
@@ -117,6 +146,28 @@
 				3E88BD011A0C619900D415C1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E88BD0C1A0C61A200D415C1 /* VORefresh */ = {
+			isa = PBXGroup;
+			children = (
+				3E2CCDB01A0CE56900EEF9EC /* VORefreshView.h */,
+				3E2CCDB11A0CE56900EEF9EC /* VORefreshView.m */,
+				3E34F64C1A0DC92A008946E6 /* UIScrollView+VORefresh.h */,
+				3E34F64D1A0DC92A008946E6 /* UIScrollView+VORefresh.m */,
+			);
+			name = VORefresh;
+			sourceTree = "<group>";
+		};
+		3E88BD1E1A0C791400D415C1 /* RingProgress */ = {
+			isa = PBXGroup;
+			children = (
+				3E88BD1F1A0C791400D415C1 /* VORingIndicator.h */,
+				3E88BD201A0C791400D415C1 /* VORingIndicator.m */,
+				3E88BD211A0C791400D415C1 /* VORingProgressView.h */,
+				3E88BD221A0C791400D415C1 /* VORingProgressView.m */,
+			);
+			path = RingProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +219,7 @@
 				TargetAttributes = {
 					3E88BCE21A0C619900D415C1 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = X8GY4X76C2;
 					};
 					3E88BCFB1A0C619900D415C1 = {
 						CreatedOnToolsVersion = 6.1;
@@ -219,9 +271,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E88BCEF1A0C619900D415C1 /* ViewController.m in Sources */,
+				3E34F64E1A0DC92A008946E6 /* UIScrollView+VORefresh.m in Sources */,
+				3E88BD241A0C791400D415C1 /* VORingProgressView.m in Sources */,
+				3E88BD231A0C791400D415C1 /* VORingIndicator.m in Sources */,
 				3E88BCEC1A0C619900D415C1 /* AppDelegate.m in Sources */,
+				3E2CCDB21A0CE56900EEF9EC /* VORefreshView.m in Sources */,
+				3E34F65A1A0DFBF6008946E6 /* VODemoCell.m in Sources */,
+				3E34F6571A0DDABC008946E6 /* VODemoCollectionViewController.m in Sources */,
 				3E88BCE91A0C619900D415C1 /* main.m in Sources */,
+				3E34F6511A0DDA58008946E6 /* VOMainPageController.m in Sources */,
+				3E34F6541A0DDA84008946E6 /* VODemoTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +402,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = VORefreshDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +414,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = VORefreshDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +475,7 @@
 				3E88BD081A0C619900D415C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E88BD091A0C619900D415C1 /* Build configuration list for PBXNativeTarget "VORefreshDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +484,7 @@
 				3E88BD0B1A0C619900D415C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
